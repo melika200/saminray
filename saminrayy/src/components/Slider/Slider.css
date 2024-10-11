@@ -1,0 +1,22 @@
+.slideshow {
+  width: 100%;
+  height: 50vw;
+  border-radius:20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: slideshow 15s ease-in-out infinite;
+}
+@keyframes slideshow {
+  0% {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKgKBdap_EIlaIUfL_rBsdVJpXZFnti1ectbXwPqlXg1KLdADhUvEm3WjIKN1CmzLs-wE&usqp=CAU");
+  }
+  33% {
+    background-image: url("https://career.comarch.com/files-com/file_45/frontend_blog.jpg");
+  }
+  66% {
+    background-image: url("https://www.freecodecamp.org/news/content/images/2022/02/shutterstock_1610721214-min.jpg");
+  }
+  100% {
+    background-image: url("https://technology.blog.gov.uk/wp-content/uploads/sites/31/2020/07/frontend_dev_blog.jpg");
+  }
+}

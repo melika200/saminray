@@ -1,0 +1,12 @@
+a{
+    all: unset;
+    text-decoration: none;
+    color: #757474;
+    
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
